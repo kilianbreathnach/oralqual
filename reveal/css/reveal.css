@@ -1321,7 +1321,7 @@ body {
 
 /***** extra states for the oral qual *****/
 .oral_title .reveal .state-background {
-        background-image: url('../talk_data/slice_0062_05xy.png');
+        background-image: url('http://www.multidark.org/MultiDark/images/slice_0062_05xy.png');
         background-repeat: no-repeat;
         background-size: cover;
 }
