@@ -1324,6 +1324,14 @@ body {
         background-image: url('http://www.multidark.org/MultiDark/images/slice_0062_05xy.png');
         background-repeat: no-repeat;
         background-size: cover;
+        content: "Image source: MultiDark.org";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: #F0F8FF;
+        text-align: right;
+
 }
 
 
