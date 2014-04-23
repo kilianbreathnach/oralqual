@@ -24,6 +24,155 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
 
+        <section>
+
+          <h2>
+            <font face="helvetica">Oral Qual Presentation</font>
+          </h2>
+
+          <h4>
+            <font face="helvetica">or "Why You Should Keep Me Around"</font>
+          </h4>
+          
+          <div>
+            <font face="helvetica">29 April 2014</font>
+          </div>
+
+          <h4>
+            <font face="helvetica">Kilian Walsh</font>
+          </h4>
+
+        </section>
+
+          <h3>
+            <font face="helvetica">Projects I have done / am currently working on</font>
+          </h3>
+
+          <div>
+            <ul>
+              <li class="fragment">
+                <font face="helvetica">
+                  Image Modelling with Astrometry.net
+                </font>
+              </li>
+
+              <li class="fragment">
+                <font face="helvetica">
+                  VPF measurement in BOSS
+                </font>
+              </li>
+            </ul>
+          </div>
+
+        </section>
+
+        <section data-state="title_img">
+        <h2>
+          <font color="F0F8FF" face="helvetica">Image Modelling with Astrometry.net</font>
+        </h2>
+
+        <h5>
+          <font color="F0F8FF" face="helvetica">with David Hogg and Dustin Lang (CMU)</font>
+        </h5>
+        </section>
+
+        <section data-state="astrometry">
+        <h2>
+          <font face="helvetica">Astrometry.net</font>
+        </h2>
+
+        <div>
+          <ul>
+            <li class="fragment">
+            <font face="helvetica">Compares sources found in image to a catalogue with "geometric hashing"</font>
+            <ul>
+              <li class="fragment">
+              <font face="helvetica">Super fast and ZERO false positives</font>
+              </li>
+            </ul>
+            </li>
+            <li class="fragment">
+            <font face="helvetica">Can be used to astrometrically calibrate any astronomical image (optical)</font>
+            </li>
+            <li class="fragment">
+            <font face="helvetica">Crowdsourcing: currently 49,586 pictures tagged #astrometry on Flickr</font>
+            </li>
+          </ul>
+        </div>
+        </section>
+
+        <section>
+        <h2>
+          <font face="helvetica">But...</font>
+        </h2>
+
+        <div>
+          <ul>
+            <li class="fragment">
+            <font face="helvetica">Calibration only achieves accurate <i>positions</i> of astronomical sources</font>
+            </li>
+            <li class="fragment">
+            <font face="helvetica">We would also like to know about source <i>brightnesses</i> - enables more science</font>
+            </li>
+            <li class="fragment">
+            <font face="helvetica">Calibration done using an imperfect catalogue (USNO-B)</font>
+            </li>
+          </ul>
+        </div>
+        </section>
+        
+        <section data-state="tractor">
+        <h2>
+          <font face="helvetica">Idea</font>
+        </h2>
+
+        <div>
+          <ul>
+            <li class="fragment">
+            <font face="helvetica">Construct Image model with an image catalogue of stars, galaxies, background... Prior knowledge about model from the output of Astrometry.net code</font>
+            </li>
+            <li class="fragment">
+            <font face="helvetica">Use model to generate a fake data image and compare with real data</font>
+            </li>
+            <li class="fragment">
+            <font face="helvetica">Improve the comparison by including missing stars, motion of stars, supernovae... Science!</font>
+            </li>
+            <li class="fragment">
+            <font face="helvetica">Do this for many images to build up a probabilistic catalogue for the sky</font>
+            </li>
+          </ul>
+        </div>
+        </section>
+        
+        <section>
+        <h4>
+          <font face="helvetica">Preliminary results obtained with Image 1</font>
+        </h4>
+
+        <h2>
+          <img src="http://i.imgur.com/kDDQ1Hc.png" />
+          <br />
+        </h2>
+        </section>
+        
+        <section>
+        <h4>
+          <font face="helvetica">Source shift modelling</font>
+        </h4>
+        
+        <h2>
+          <img src="http://broiler.astrometry.net/~kilian/exp_req/5-step/107.png" />
+          <br />
+        </h2>
+        </section>
+
+        <section>
+        <h2>
+          <img src="http://broiler.astrometry.net/~kilian/exp_req/5-step/ring_fig-switch.png" />
+          <br />
+        </h2>
+        </section>
+        
         <section data-state="oral_title">
 
           <h2>
